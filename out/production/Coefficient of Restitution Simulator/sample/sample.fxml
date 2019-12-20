@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<TitledPane animated="false" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+    <content>
+        <AnchorPane fx:id="paness" minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" style="-fx-background-color: #e5ff8f;">
+            <children>
+                <Button fx:id="start" layoutX="518.0" layoutY="64.0" mnemonicParsing="false" onAction="#Start" text="START" style="-fx-background-color: #ff1414; -fx-text-fill: #ffffff;"/>
+                <Text layoutX="177.0" layoutY="27.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-weight: bold" text="COEFFICIENT OF RESTITUTION SIMULATOR" />
+                <TextField fx:id="coefficient" layoutX="22.0" layoutY="31.0" promptText="e ( 0.00 - 1.00 )" />
+                <TextField fx:id="height" layoutX="429.0" layoutY="31.0" promptText=" Height ( 0 - 550 )" />
+                <VBox alignment="CENTER" layoutX="392.0" layoutY="89.0" nodeOrientation="LEFT_TO_RIGHT" prefHeight="200.0" prefWidth="100.0">
+                    <children>
+                        <Text fx:id="h1" strokeType="OUTSIDE" strokeWidth="0.0" text="Height 1 = 550.0" visible="false">
+                            <VBox.margin>
+                                <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                            </VBox.margin>
+                        </Text>
+                        <Text fx:id="h2" strokeType="OUTSIDE" strokeWidth="0.0" text="Height 2  = 440.0" visible="false">
+                            <VBox.margin>
+                                <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                            </VBox.margin>
+                        </Text>
+                        <Text fx:id="h3" strokeType="OUTSIDE" strokeWidth="0.0" text="Height 1 = 550.0" visible="false">
+                            <VBox.margin>
+                                <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                            </VBox.margin>
+                        </Text>
+                        <Text fx:id="h4" strokeType="OUTSIDE" strokeWidth="0.0" text="Height 1 = 550.0" visible="false">
+                            <VBox.margin>
+                                <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                            </VBox.margin>
+                        </Text>
+                        <Text fx:id="h5" strokeType="OUTSIDE" strokeWidth="0.0" text="Height 1 = 550.0" visible="false">
+                            <VBox.margin>
+                                <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                            </VBox.margin>
+                        </Text>
+                        <Text fx:id="h6" strokeType="OUTSIDE" strokeWidth="0.0" text="Height 1 = 550.0" visible="false">
+                            <VBox.margin>
+                                <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                            </VBox.margin>
+                        </Text>
+                        <Text fx:id="h7" strokeType="OUTSIDE" strokeWidth="0.0" text="Height 1 = 550.0" visible="false">
+                            <VBox.margin>
+                                <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                            </VBox.margin>
+                        </Text>
+                        <Text fx:id="h8" strokeType="OUTSIDE" strokeWidth="0.0" text="Height 1 = 550.0" visible="false">
+                            <VBox.margin>
+                                <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                            </VBox.margin>
+                        </Text>
+                        <Text fx:id="h9" strokeType="OUTSIDE" strokeWidth="0.0" text="Height 1 = 550.0" visible="false">
+                            <VBox.margin>
+                                <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                            </VBox.margin>
+                        </Text>
+                        <Text fx:id="h10" strokeType="OUTSIDE" strokeWidth="0.0" text="Height 1 = 550.0" visible="false">
+                            <VBox.margin>
+                                <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                            </VBox.margin>
+                        </Text>
+                    </children>
+                </VBox>
+                <Button layoutX="518.0" layoutY="102.0" mnemonicParsing="false" onAction="#Reset" style="-fx-background-color: #ff1414; -fx-text-fill: #ffffff;" text="RESET" />
+            </children></AnchorPane>
+    </content>
+</TitledPane>
